@@ -194,7 +194,7 @@ var ani=ghost_t2.to(image,{
 //       start: "left 30%",
 //       scrub:1,
 //       pin:true,
-//       markers:true
+//       
 //     }
 // });    
 
@@ -246,7 +246,7 @@ var courses_t1=gsap.timeline({
         trigger:'.main-wrapper1',
         start:"0% 10%",
         end:"1000% 40%",
-        markers:true,
+        
         pin:true,
         ease:"power.in",
         // toggleActions:"restart pause restart complete",
